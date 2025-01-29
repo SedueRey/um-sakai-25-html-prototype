@@ -33,8 +33,8 @@ const toggleSites = () => {
         <i class="fa-solid fa-chevron-left" v-if="!uiStore.isCollapsedSites" />
         <i class="fa-solid fa-chevron-right" v-else />
       </span>
-      <NavSitesList title="Recientes" icon-class="fa-regular fa-clock" />
       <NavSitesList title="Favoritos" icon-class="fa-duotone fa-star" />
+      <NavSitesList title="Recientes" icon-class="fa-regular fa-clock" />
     </nav>
     <nav class="sitesView__toolsContainer" :class="toolsClass">
       <ToolList />
