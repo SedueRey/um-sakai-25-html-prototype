@@ -1,8 +1,8 @@
 @use 'sass:meta';
-@import 'icons';
 
 :root {
   --sites-menu-width: 17rem;
+  --sakai-bg-color: #fff;
 }
 
 body.is-collapsed-sites {

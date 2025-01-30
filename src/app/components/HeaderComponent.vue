@@ -42,9 +42,11 @@ import { Avatar } from 'primevue'
   position: fixed;
   right: 0;
   top: 0;
+  border-left: 1px solid var(--p-slate-200);
   border-bottom: 1px solid var(--p-slate-200);
   left: var(--sites-menu-width);
   padding: 0.5rem;
+  background-color: var(--sakai-bg-color);
   &__avatar {
     cursor: pointer;
   }

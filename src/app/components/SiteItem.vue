@@ -58,7 +58,7 @@ const showTools = () => {
   }
   &__tools {
     border: 1px solid var(--p-slate-200);
-    background-color: #fff;
+    background-color: var(--sakai-bg-color);
     padding: 0.25rem;
     border-radius: 6px;
     position: absolute;
